@@ -13,10 +13,10 @@ int main() {
     int n;
     cout << "Enter n: ";
     cin >> n;
-    int candidate = n + 1;
-    while (!isPrime(candidate)) {
-        candidate++;
+    int s = n + 1;
+    while (!isPrime(s)) {
+        s++;
     }
-    cout << "Next prime: " << candidate << endl;
+    cout << "Next prime: " << s << endl;
     return 0;
 }
